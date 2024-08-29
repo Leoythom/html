@@ -12,6 +12,7 @@ body {
     background-color: black;
     text-align: justify;
    background-image: linear-gradient(to left, rgb(201, 6, 6), rgb(143, 61, 61));
+   background-size: cover;
    
 }
 header{
