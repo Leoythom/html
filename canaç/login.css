@@ -1,0 +1,39 @@
+@charset "UTF-8";
+ @font-face {
+    font-family: 'amor2';
+    src: url(love\ story\ ttf.ttf) format(truetype);
+ }
+body {
+    background-color: black;
+    color: white;
+    background-image: url(1989436.jpg);
+    background-size: cover;
+
+}
+.inicio {
+    font-family: 'amor2';
+    text-align: center;
+
+}
+main {
+   
+    backdrop-filter: blur(20px);
+    border: 2px solid white;
+    width: 200px;
+    padding: 30px;
+    height: 230px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input {
+    background-color: rgb(255, 0, 179);
+    border: 2px solid black;
+    border-radius: 30px;
+}
+input > a {
+    color: wheat;
+}
+
