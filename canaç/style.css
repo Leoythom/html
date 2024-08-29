@@ -16,13 +16,13 @@ body {
 }
 header{
     font-family: 'amor1';
-    background-color: bisque;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), black);
     text-align: center;
     padding: 40px;
 
 }
 nav{
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 43);
     text-decoration: none;
     padding: 10px;
 
@@ -37,7 +37,10 @@ nav > a:hover {
     transition-duration: 2s;
 }
 main {
-    background-color: white;
+    padding: 20px;
+    box-shadow: 3px 3px 7px black;
+    background-color: wheat;
+   border-radius: 30px;
     margin: auto;
     width: 1000px;
     min-height: 600px;
@@ -48,6 +51,6 @@ main {
     display: block;
     margin: auto;
     min-height: 100px;
-    max-height: 900px;
+    max-height: 400px;
 
 }
