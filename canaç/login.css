@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
  @font-face {
     font-family: 'amor2';
     src: url(love\ story\ ttf.ttf) format(truetype);
@@ -10,30 +11,107 @@ body {
     background-size: cover;
 
 }
+.back-video{
+   
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -11;
+}
+
 .inicio {
+    color: rgb(190, 228, 235);
+    text-shadow: 2px 2px 2px black;
     font-family: 'amor2';
     text-align: center;
 
 }
 main {
    
-    backdrop-filter: blur(20px);
-    border: 2px solid white;
-    width: 200px;
+    backdrop-filter: blur(7px);
+    border: 2px solid  rgba(112, 228, 236, 0.815);;
+    width: 280px;
     padding: 30px;
-    height: 230px;
+    height: 280px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 1px 8px 20px black;
 }
 input {
-    background-color: rgb(255, 0, 179);
-    border: 2px solid black;
+   
+}
+.segundo {
+    box-shadow: 2px 2px 2px black;
+    width: 250px;
+    color: rgb(17, 7, 7);
+    background-color: rgba(196, 248, 255, 0.534);
+    padding: 6px;
+    backdrop-filter: blur(200px);
+    border: 2px solid rgb(114, 151, 221);
     border-radius: 30px;
+    color: white;
+    
 }
-input > a {
-    color: wheat;
+.terceiro {
+    box-shadow: 2px 2px 2px black;
+    width: 250px;
+    color: rgb(17, 7, 7);
+    background-color: rgba(196, 248, 255, 0.534);
+    padding: 6px;
+    backdrop-filter: blur(200px);
+    border: 2px solid rgb(114, 151, 221);
+    border-radius: 30px;
+    color: white;
 }
+
+.abc {
+    box-shadow: 2px 2px 2px black;
+    width: 270px;
+    color: rgb(17, 7, 7);
+    background-color: rgba(196, 248, 255, 0.534);
+    padding: 6px;
+    backdrop-filter: blur(200px);
+    border: 2px solid rgb(114, 151, 221);
+    border-radius: 30px;
+    color: white;
+   
+   
+    text-align: center;
+    background-color: rgb(64, 64, 131);
+    
+}
+
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    
+}
+a:hover {
+    color: rgb(255, 0, 0);
+    
+  
+}
+
+
+.nomes i{
+    position: absolute;
+    right: 20px;
+    top: 142px;
+   
+   
+}
+
+
+.senha i {
+    position: absolute;
+    right: 20px;
+    top: 188px;
+}
+
 

@@ -5,34 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu amorzinho, Lili</title>
     <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="walapaper animado.mp4" type="video/mp4">
+        </video>
+    </div>
     <form action="cad.html" method="get">
     <main>
+
     <div class="inicio">
         <h1>LOGIN
         </h1>
 
     </div>
-    <div class="nomes">
-        <input type="text" name="nome" id="nome" 
-        placeholder="Digite seu nome" required>
-        </div>
-        <br>
-        <div class="senha">
-            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
 
+
+    <div class="nomes">
+        <i class='bx bxs-user-circle'></i>
+        <input type="text" name="nome" id="nome" 
+        placeholder="Username" required class="segundo">
+    </div>
+
+    <br>
+
+    <div class="senha">
+            <i class='bx bxs-lock-alt'></i>
+            <input type="password" name="senha" id="senha" placeholder="Passord" required class="terceiro">
         </div>
-        <div class="link">
-            <a href="https://support.google.com/accounts/answer/7682439?hl=pt-br">Esqueceu sua senha?</a>
-        </div>
+            
+
+        <a href="https://support.google.com/accounts/answer/7682439?hl=pt-br">Forgot password</a>
+
+        <br>
         
-        <div class="lembrar">
-         <input type="checkbox" name="lembre" id="lembre">  <label for="lembre">Me relembrar</label> 
-        </div>
+       <div class="lembra">
+    <input type="checkbox" name="lembra" id="lembra" class="primeiro">  <label for="lembra">Remember me</label>
+       </div>
+
+
         <div class="entrar">
-            <input type="submit" value="entrar">
+            <input type="submit" value="entrar" class="abc">
         </div>
+
+
     </main>
 </form>
 </body>
