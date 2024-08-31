@@ -8,6 +8,7 @@ body {
     background-color: black;
     color: white;
     background-image: url(ilustracao-da-cidade-do-anime.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 
 }
@@ -80,7 +81,7 @@ main {
 a {
     text-decoration: none;
     padding: 10px;
-    color: rgba(2, 1, 1, 0.603);
+    color: rgba(255, 255, 255, 0.603);
     
 }
 a:hover {
