@@ -4,15 +4,11 @@
     font-family: 'amor2';
     src: url(love\ story\ ttf.ttf) format(truetype);
  }
-ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+
 body {
     background-color: black;
     color: white;
-    background-image: url(ilustracao-da-cidade-do-anime.jpg);
+    background-image: url(1989436.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -25,18 +21,12 @@ header {
     justify-content: space-between;
     padding: 40px;
     align-items: center;
-    
-    
-    
-    
+}
 
-}
-.logo {
-    font-size: 1.5em;
-}
+
+
 .menu {
-    padding-right: 60px;
-    
+    padding-right: 60px; 
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -107,8 +97,12 @@ main {
     
 }
 
+.logo a{
+    font-size: 8em;
+}
 
 a {
+    font-size: 1.2em;
     text-decoration: none;
     padding: 10px;
     color: rgba(255, 255, 255, 0.603);
@@ -126,12 +120,14 @@ a:hover {
     position: absolute;
     right: 20px;
     top: 142px;
+    font-size: 1.3em;
    
    
 }
 
 
 .senha i {
+    font-size: 1.3em;
     color: yellow;
     position: absolute;
     right: 20px;

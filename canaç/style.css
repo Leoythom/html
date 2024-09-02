@@ -14,6 +14,7 @@ body {
    background-image: linear-gradient(to left, rgb(201, 6, 6), rgb(143, 61, 61));
    background-size: auto;
    background-repeat: no-repeat;
+   background-attachment: fixed;
    
 }
 header{
@@ -39,6 +40,7 @@ nav > a:hover {
     transition-duration: 2s;
 }
 main {
+    width: 500px;
     padding: 20px;
     box-shadow: 3px 3px 7px black;
     background-color: wheat;
